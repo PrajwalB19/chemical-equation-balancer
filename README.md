@@ -22,7 +22,9 @@ Casio fx-CG50 (MicroPython) and also testable on a desktop Python environment.
 1. Copy `main.py` to your calculator's file system (root or preferred folder).
 2. Run `main.py` and enter an equation like:
 
-   Ca(OH)2+HCl=CaCl2+H2O
+```
+Ca(OH)2+HCl=CaCl2+H2O
+```
 
 3. The program prints the balanced equation or an error message if it can't
    find a non-trivial balance.
@@ -31,13 +33,17 @@ Casio fx-CG50 (MicroPython) and also testable on a desktop Python environment.
 
 1. Create a virtual environment and activate it (optional but recommended):
 
-   python -m venv .venv
-   source .venv/bin/activate # or .\.venv\Scripts\activate on Windows
+```bash
+python -m venv .venv
+source .venv/bin/activate  # or .\.venv\Scripts\activate on Windows
+```
 
 2. Install pytest and run tests:
 
-   pip install pytest
-   pytest -q
+```bash
+pip install pytest
+pytest -q
+```
 
 ## Project notes
 
@@ -48,4 +54,4 @@ Casio fx-CG50 (MicroPython) and also testable on a desktop Python environment.
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
